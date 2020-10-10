@@ -1,16 +1,61 @@
+/* Начало стилей для разрешения 1920px */
+
+body {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.wrapper {
+  width: 80%;
+  margin: auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 130px;
+}
+
+.logo,
+.menu {
+  display: inline-block;
+}
+
+.logo {
+  padding: 40px 0;
+}
+
 .menu {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
+  display: flex;
+  align-items: center;
+}
+
+.menu__item {
+  padding-right: 13px;
+}
+
+.menu__item:last-child {
+  padding-right: 0;
+}
+
+.main-section {
+  display: flex;
+  justify-content: space-between;
 }
 
 .main-content__title {
   font-family: 'PT Serif', serif;
   font-weight: 700;
+  padding-bottom: 40px;
 }
 
 .main-content__subtitle {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
+  padding-bottom: 41px;
 }
 
 .main-content__button {
