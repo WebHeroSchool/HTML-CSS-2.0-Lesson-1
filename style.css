@@ -23,7 +23,28 @@ body {
 }
 
 .logo {
+  font: 24px/32px 'pt_serifbold', arial, helvetica, sans-serif;
   padding: 40px 0;
+  padding-left: 44px;
+  position: relative;
+}
+
+.logo__circle {
+  width: 28px;
+  height: 28px;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  background: #0056EC;
+}
+
+.logo__circle_color_blue {
+  left: 8px;
+  top: 56%;
+  background: #C8DBFB;
+  opacity: .7;
 }
 
 .menu {
