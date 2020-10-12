@@ -14,7 +14,7 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 130px;
+  margin-bottom: 100px;
 }
 
 .logo,
@@ -86,24 +86,36 @@ body {
   margin-right: 0;
 }
 
-.main-section {
-  display: flex;
-  justify-content: space-between;
+.main {
+  padding: 0 62% 100px 0;
+  background: top right no-repeat url(Frame.svg);
 }
 
-.main-content__title {
-  font-family: 'PT Serif', serif;
-  font-weight: 700;
-  padding-bottom: 40px;
+.main__title {
+  font: bold 50px/66px 'pt_serif', arial, helvetica, sans-serif;
+  margin: 0 0 40px 0;
 }
 
-.main-content__subtitle {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 500;
-  padding-bottom: 41px;
+.main__title-backcolor {
+  background: #ecf3ff;
+
 }
 
-.main-content__button {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 500;
+.main__subtitle {
+  font: normal 18px/21px 'Roboto', arial, helvetica, sans-serif;
+  margin: 0 0 41px 0;
+}
+
+.main__button {
+  font: normal 14px/16px 'Roboto', arial, helvetica, sans-serif;
+  padding: 14px 16px;
+  color: #fff;
+  text-decoration: none;
+  background: #0056ec;
+  border-radius: 4px;
+  transition: .5s;
+}
+
+.main__button:hover {
+  opacity: .5;
 }
