@@ -191,14 +191,14 @@ body {
     margin-bottom: 10px;
   }
 
-/* Стили для гамбургер меню */
+  /* Стили для гамбургер меню */
 
   .hamburger-menu {
     display: inline-block;
   }
 
   .hamburger-menu:hover {
-     cursor: pointer;
+    cursor: pointer;
   }
 
   #menu__toggle {
@@ -227,7 +227,7 @@ body {
     background: #0056ec;
   }
 
- .menu__btn > span::before {
+  .menu__btn > span::before {
     content: '';
     top: -8px;
   }
@@ -250,7 +250,7 @@ body {
     list-style: none;
     text-align: center;
     background-color: white;
-    box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+    box-shadow: 1px 0 6px rgba(0, 0, 0, .2);
   }
 
   .menu__item {
@@ -284,7 +284,7 @@ body {
     left: 0;
   }
 
-/* Окончание стилей для гамбургер меню */
+  /* Окончание стилей для гамбургер меню */
 
   .logo {
     padding: 37px 0;
@@ -321,5 +321,4 @@ body {
     font: normal 14px/16px 'Roboto', arial, helvetica, sans-serif;
     padding: 14px 20px;
   }
-
 }
