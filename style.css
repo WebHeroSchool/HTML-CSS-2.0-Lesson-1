@@ -42,6 +42,7 @@ body {
   transform: translateY(-50%);
   border-radius: 50%;
   background: #0056ec;
+  animation: motion-down 1.5s ease-out 1 reverse forwards;
 }
 
 .logo__circle_color_blue {
@@ -49,7 +50,54 @@ body {
   top: 56%;
   background: #c8dbfb;
   opacity: .7;
+  animation: motion-up 1.5s ease-out 1 reverse forwards;
 }
+
+.logo__text {
+  animation: changecolor 2.5s ease-in 1 reverse forwards;
+}
+
+/* Начало анимации для лого */
+
+@keyframes motion-up {
+  from {
+    left: 8px;
+    top: 56%;
+  }
+
+  to {
+    transform: translate(-5px, -19px);
+    opacity: 0;
+  }
+}
+
+@keyframes motion-down {
+  from {
+    left: 0;
+    top: 50%;
+  }
+
+  to {
+    transform: translate(3px, -12.5px);
+    opacity: 1;
+  }
+}
+
+@keyframes changecolor {
+  from {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.5
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+/* Окончание анимации для лого */
 
 .menu {
   display: flex;
