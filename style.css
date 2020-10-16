@@ -14,7 +14,7 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 6, 6vw;
+  margin-bottom: 6.6vw;
 }
 
 .logo,
@@ -28,7 +28,7 @@ body {
 
 .logo {
   font: bold 24px/32px 'pt_serif', arial, helvetica, sans-serif;
-  padding: 40px 0;
+  padding: 39px 0;
   padding-left: 44px;
   position: relative;
 }
@@ -107,6 +107,7 @@ body {
 
 .menu__item {
   position: relative;
+  padding-top: 8px;
   margin-right: 26px;
   font: 500 18px/21px 'Roboto', arial, helvetica, sans-serif;
   color: #000;
@@ -208,6 +209,10 @@ body {
     margin: 0 0 55px 0;
   }
 
+  .main__subtitle {
+    margin: 0 0 57px 0;
+  }
+
   .main__button {
     font: normal 14px/16px 'Roboto', arial, helvetica, sans-serif;
     padding: 14px 20px;
@@ -225,6 +230,10 @@ body {
 
   .menu {
     margin: 0 2px 0 0;
+  }
+
+  .main__subtitle {
+    margin: 0 0 57px 0;
   }
 }
 
@@ -361,12 +370,13 @@ body {
   .main__subtitle {
     font: normal 16px/19px 'Roboto', arial, helvetica, sans-serif;
     margin: 0 auto;
-    margin-bottom: 35px;
+    margin-bottom: 10.5vw;
     width: 74%;
   }
 
   .main__button {
     font: normal 14px/16px 'Roboto', arial, helvetica, sans-serif;
     padding: 14px 20px;
+    margin-left: 1vw;
   }
 }
