@@ -270,7 +270,7 @@ body {
   }
 }
 
-@media (max-width: 580px) {	
+@media (max-width: 580px) {
   .wrapper {
     width: 80%;
   }
@@ -279,7 +279,7 @@ body {
     display: none;
   }
 
-    /* Стили для гамбургер меню */
+  /* Стили для гамбургер меню */
 
   .hamburger-menu {
     display: inline-block;
