@@ -260,7 +260,7 @@ body {
 
 @media (max-width: 920px) {
   .header {
-    margin-bottom: 0vw;
+    margin-bottom: 0;
   }
 
   .main {
