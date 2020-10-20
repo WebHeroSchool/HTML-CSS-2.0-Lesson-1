@@ -245,12 +245,22 @@ body {
     margin: 0 2px 0 0;
   }
 
+  .main {
+    background-size: 55% auto;
+  }
+
   .main__subtitle {
     margin: 0 0 5.5vw 0;
   }
 }
 
 /* Окончание стилей для разрешения 1024px */
+
+@media (max-width: 950px) {
+  .main {
+    background-size: 50% auto;
+  }
+}
 
 @media (max-width: 930px) {
   .wrapper {
@@ -266,13 +276,20 @@ body {
   .main {
     padding: 50vw 0 5vw 0;
     background: top center no-repeat url(svg/Frame1024px.svg);
+    background-size: 55% auto;
     text-align: center;
+  }
+}
+
+@media (max-width: 830px) {
+  .main {
+    padding: 50vw 0 5vw 0;
   }
 }
 
 @media (max-width: 600px) {
   .main {
-    background-size: contain;
+    background-size: 62% auto;
   }
 }
 
@@ -283,6 +300,10 @@ body {
 
   .menu {
     display: none;
+  }
+
+  .main {
+    background-size: 72% auto;
   }
 
   /* Стили для гамбургер меню */
@@ -375,6 +396,12 @@ body {
   #menu__toggle:checked ~ .menu__box {
     visibility: visible;
     left: 0;
+  }
+}
+
+@media (max-width: 450px) {
+  .main__title {
+    font: bold 40px/66px 'pt_serif', arial, helvetica, sans-serif;
   }
 }
 
